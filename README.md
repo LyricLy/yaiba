@@ -16,4 +16,4 @@ cd yaiba
 cargo build --release
 ```
 
-The executable will be at ./target/release/yaiba.
+The executable will be at `./target/release/yaiba`.
