@@ -281,6 +281,5 @@ fn main() {
     let mut program = fs::read_to_string(&matches.program).expect("Invalid file");
 
     let ast = parse(&mut program);
-    //println!("{:?}", ast);
     interpret(ast, matches.input, matches.ascii);
 }
